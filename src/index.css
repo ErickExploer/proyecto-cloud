@@ -333,3 +333,30 @@ body {
   background-color: #003366;
   color: #ffffff;
 }
+
+
+.cliente-list {
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: center; 
+  gap: 10px; 
+  padding: 20px; 
+}
+
+.cliente-item {
+  background-color: #f0f8ff; 
+  border: 1px solid #ccc; 
+  border-radius: 8px; 
+  padding: 10px; 
+  flex: 1 1 200px; 
+  max-width: 300px; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+  text-align: center; 
+}
+
+.cliente-actions {
+  display: flex;
+  justify-content: center; 
+  gap: 5px; 
+}
+
